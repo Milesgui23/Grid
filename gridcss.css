@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-areas: 
+    "cabecalho cabecalho cabecalho"
+    "propaganda conteudo conteudo"
+    "rodape conteudo conteudo";
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.cabecalho{
+    grid-area: cabecalho;
+}
+
+.propaganda{
+    grid-area: propaganda;
+}
+
+.rodape{
+    grid-area: rodape;
+}
+
+.conteudo{
+    grid-area: conteudo;
+}
